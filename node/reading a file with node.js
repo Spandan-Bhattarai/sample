@@ -18,5 +18,6 @@ fs.readFile("./custom.txt","utf-8",
     (err,data) => 
     {
         console.log(data);
-    }
-)
+    })
+const mah = fs.readFileSync("./custom2.txt",{encoding:"utf-8"})
+console.log(mah)
