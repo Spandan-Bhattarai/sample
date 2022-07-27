@@ -2,12 +2,15 @@
   "name": "node",
   "version": "1.0.0",
   "main": "server.js",
-  "module":"commonjs",
+  "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

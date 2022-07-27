@@ -12,3 +12,4 @@ var fs = require('fs');
 // })
 
 fs.writeFileSync("./custom2.txt", "asdfgh", "hello world")
+
